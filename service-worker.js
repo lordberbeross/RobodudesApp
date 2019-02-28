@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lordberbeross/RobodudesApp.git/precache-manifest.b9889ffb163675d3c745687dbd141ab9.js"
+  "/RobodudesApp/precache-manifest.27db66b59583fcadcdccde0bb0a5e998.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/lordberbeross/RobodudesApp.git/index.html", {
+workbox.routing.registerNavigationRoute("/RobodudesApp/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
